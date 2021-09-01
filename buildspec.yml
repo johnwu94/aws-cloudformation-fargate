@@ -1,0 +1,22 @@
+version: 0.2
+
+phases: 
+  build:    
+    commands:
+      - mkdir ../allyml
+      - ls
+      #- cd 00_framework
+      - pwd
+      - ./cp-yml.sh
+
+  post_build:
+    commands:
+      - pwd
+      - ls
+    
+
+artifacts: 
+  files: 
+    - "**/*.yml"
+  discard-paths: yes
+  base-directory: "../allyml/"      
