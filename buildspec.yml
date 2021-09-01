@@ -4,16 +4,12 @@ phases:
   build:    
     commands:
       - mkdir ../allyml
+      - ls ../
       - ls
       #- cd 00_framework
       - pwd
       - ./cp-yml.sh
-
-  post_build:
-    commands:
-      - pwd
-      - ls
-    
+      - ls ../allyml
 
 artifacts: 
   files: 
