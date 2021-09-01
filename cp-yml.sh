@@ -1,5 +1,6 @@
 #!/bin/bash
-mkdir ../allyml
+
+#mkdir ../allyml
 
 for i in ./*; do
     #echo "$i"
