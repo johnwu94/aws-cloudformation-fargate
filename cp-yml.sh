@@ -10,5 +10,4 @@ for i in ./*; do
     else
         echo "$i is not a dir"
     fi
-done
-~      
+done      
