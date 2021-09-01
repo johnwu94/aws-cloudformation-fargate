@@ -13,6 +13,6 @@ phases:
 
 artifacts: 
   files: 
-    - "**/*.yml"
+    - '**/*.yml'
   discard-paths: yes
-  base-directory: "../allyml/"      
+  base-directory: '../allyml/'
